@@ -6,10 +6,13 @@
   PACKAGE_VERSION                = 0.1
 
 [Includes]
+  Include
   ../StdLib/Include
   ../StdLib/Include/X64
 
 [LibraryClasses]
+  RptStringLib | Include/Library/RptStringLib.h
+  RptPciLib    | Include/Library/RptPciLib.h
 
 [Guids]
 

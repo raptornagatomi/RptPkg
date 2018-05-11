@@ -48,6 +48,10 @@
   PciLib|MdePkg/Library/BasePciLibCf8/BasePciLibCf8.inf
   PciCf8Lib|MdePkg/Library/BasePciCf8Lib/BasePciCf8Lib.inf
 
+  # Raptor's Libraries
+  RptStringLib | RptPkg/Library/RptStringLib/RptStringLib.inf
+  RptPciLib    | RptPkg/Library/RptPciLib/RptPciLib.inf
+
 [LibraryClasses.IA32]
   TimerLib|PerformancePkg/Library/TscTimerLib/DxeTscTimerLib.inf
 
@@ -78,7 +82,8 @@
 ###################################################################################################
 
 [Components]
-  RptPkg/Application/Hello/Hello.inf          # Hello World
+  RptPkg/Application/Hello/Hello.inf                    # Hello World
+  RptPkg/Application/PcieLinkDump/PcieLinkDump.inf      # PcieLinkDump
 
 ################################################################
 #

@@ -1,0 +1,24 @@
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = RptStringLib
+  FILE_GUID                      = e66bae58-bdd8-4725-8373-3dd561752484
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 0.1
+  LIBRARY_CLASS                  = RptStringLib
+
+[Sources]
+  RptStringLib.c
+  RptStringLib.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  StdLib/StdLib.dec
+  RptPkg/RptPkg.dec
+  
+[LibraryClasses]
+  UefiLib
+  LibC
+
+[Protocols]

@@ -1,0 +1,24 @@
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = RptPciLib
+  FILE_GUID                      = a1fbdd89-828b-467a-950c-b3afeee565ea
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 0.1
+  LIBRARY_CLASS                  = RptPciLib
+
+[Sources]
+  RptPciLib.c
+  RptPciLib.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  StdLib/StdLib.dec
+  RptPkg/RptPkg.dec
+  
+[LibraryClasses]
+  UefiLib
+  LibC
+
+[Protocols]
