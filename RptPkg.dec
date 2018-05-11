@@ -1,0 +1,18 @@
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010006
+  PACKAGE_NAME                   = RptPkg
+  PACKAGE_GUID                   = 65ebfeb3-1314-482e-b663-9ad48bc04308
+  PACKAGE_VERSION                = 0.1
+
+[Includes]
+  ../StdLib/Include
+  ../StdLib/Include/X64
+
+[LibraryClasses]
+
+[Guids]
+
+[Ppis]
+
+[Protocols]
