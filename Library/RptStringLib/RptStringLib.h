@@ -1,5 +1,5 @@
-#ifndef _StringLibH_
-#define _StringLibH_
+#ifndef _RptStringLibH_
+#define _RptStringLibH_
 //-------------------------------------------------------------------------------------------------
 //
 // Includes
