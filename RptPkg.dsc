@@ -52,6 +52,7 @@
   RptStringLib      | RptPkg/Library/RptStringLib/RptStringLib.inf
   RptUefiStringLib  | RptPkg/Library/RptUefiStringLib/RptUefiStringLib.inf
   RptPciLib         | RptPkg/Library/RptPciLib/RptPciLib.inf
+  RptDpLib          | RptPkg/Library/RptDpLib/RptDpLib.inf
 
 [LibraryClasses.IA32]
   TimerLib|PerformancePkg/Library/TscTimerLib/DxeTscTimerLib.inf

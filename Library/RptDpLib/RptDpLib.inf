@@ -1,0 +1,24 @@
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = RptDpLib
+  FILE_GUID                      = cdee5b4c-9818-4acf-b41f-fd9bc7a98a08
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 0.1
+  LIBRARY_CLASS                  = RptDpLib
+
+[Sources]
+  RptDpLib.c
+  RptDpLib.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  RptPkg/RptPkg.dec
+  
+[LibraryClasses]
+  UefiLib
+  DevicePathLib
+
+[Protocols]
+  gEfiDevicePathProtocolGuid
