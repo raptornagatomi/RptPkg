@@ -49,8 +49,9 @@
   PciCf8Lib|MdePkg/Library/BasePciCf8Lib/BasePciCf8Lib.inf
 
   # Raptor's Libraries
-  RptStringLib | RptPkg/Library/RptStringLib/RptStringLib.inf
-  RptPciLib    | RptPkg/Library/RptPciLib/RptPciLib.inf
+  RptStringLib      | RptPkg/Library/RptStringLib/RptStringLib.inf
+  RptUefiStringLib  | RptPkg/Library/RptUefiStringLib/RptUefiStringLib.inf
+  RptPciLib         | RptPkg/Library/RptPciLib/RptPciLib.inf
 
 [LibraryClasses.IA32]
   TimerLib|PerformancePkg/Library/TscTimerLib/DxeTscTimerLib.inf

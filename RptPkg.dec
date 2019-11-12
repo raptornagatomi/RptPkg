@@ -11,8 +11,9 @@
   ../StdLib/Include/X64
 
 [LibraryClasses]
-  RptStringLib | Include/Library/RptStringLib.h
-  RptPciLib    | Include/Library/RptPciLib.h
+  RptStringLib      | Include/Library/RptStringLib.h
+  RptUefiStringLib  | Include/Library/RptUefiStringLib.h
+  RptPciLib         | Include/Library/RptPciLib.h
 
 [Guids]
 
