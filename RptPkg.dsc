@@ -84,8 +84,9 @@
 ###################################################################################################
 
 [Components]
-  RptPkg/Application/Hello/Hello.inf                    # Hello World
-  RptPkg/Application/PcieLinkDump/PcieLinkDump.inf      # PcieLinkDump
+  RptPkg/Application/Hello/Hello.inf                              # Hello World
+  RptPkg/Application/PcieLinkDump/PcieLinkDump.inf                # PcieLinkDump
+  RptPkg/Application/NetworkAdapterScan/NetworkAdapterScan.inf    # NetworkAdapterScan
 
 ################################################################
 #

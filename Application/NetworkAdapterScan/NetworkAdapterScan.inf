@@ -1,0 +1,30 @@
+[Defines]
+  INF_VERSION                     = 0x00010005
+  BASE_NAME                       = NetworkAdapterScan
+  FILE_GUID                       = 55c6f810-edd5-4386-a4d4-d371cd3a71db
+  MODULE_TYPE                     = UEFI_APPLICATION
+  VERSION_STRING                  = 1.0
+  ENTRY_POINT                     = UefiMain
+
+[Sources]
+  NetworkAdapterScan.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  RptPkg/RptPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  PrintLib
+  RptDpLib
+  RptUefiStringLib
+
+[Protocols]
+  gEfiPciIoProtocolGuid
+  gEfiDevicePathProtocolGuid
+  gEfiSimpleNetworkProtocolGuid
+  gEfiPxeBaseCodeProtocolGuid
+
+[Guids]
